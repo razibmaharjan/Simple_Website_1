@@ -1,0 +1,102 @@
+.topbar {
+  text-align: center;
+}
+.topbar ul {
+  display: inline-flex;
+  list-style: none;
+  color: black;
+}
+.topbar ul li {
+  margin: 20px;
+  width: 50px;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: white;
+}
+a:hover {
+  border-bottom: 5px solid white;
+}
+a:active {
+  color: white;
+}
+.topbar img {
+  float: left;
+  margin: 7px 0px 0px 7px;
+}
+.pos_b1 {
+  float: right;
+  margin-top: 7px;
+  margin-right: 20px;
+}
+
+.position {
+  text-align: center;
+  padding: 10px;
+}
+body {
+  background-image: url("Resource/background.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+}
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.middle h1 {
+  text-align: center;
+  margin-top: 140px;
+  margin-right: 400px;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+.middle p {
+  text-align: right;
+  margin-top: 140px;
+  margin-right: 250px;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+.pos_b2 {
+  float: right;
+  margin-top: 50px;
+  margin-right: 350px;
+}
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 75px;
+  border-style: groove;
+  border-color: #bc9792;
+  color: black;
+  background-color: #dfbfb8;
+  font-family: Helvetica, sans-serif;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
